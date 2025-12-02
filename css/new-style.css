@@ -2087,7 +2087,8 @@ h3 {
 	{
 		width: 100%;
         max-width: 100%;
-        min-height: 425px;
+        min-height: 300px;
+        /* min-height: 425px; */
         margin-top: 0;
         margin-bottom: 10px;
 		background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.1)), url('../images/carry-forward/carry-forward-bg.jpg'); /* replace with your image path */
@@ -2096,7 +2097,8 @@ h3 {
 		background-size: cover; /* Make image cover full area */
 		background-position: center; /* Center image */
 		background-repeat: no-repeat; /* Prevent repeating */
-		padding:100px 0px;
+		/* padding:100px 0px; */
+        padding:50px 0px;
 		
 	}
 	.cuup-ee-title {
