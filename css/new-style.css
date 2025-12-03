@@ -2098,14 +2098,14 @@ h3 {
 		background-position: center; /* Center image */
 		background-repeat: no-repeat; /* Prevent repeating */
 		/* padding:100px 0px; */
-        padding:50px 0px;
+        padding:30px 0px;
 		
 	}
 	.cuup-ee-title {
       font-size: 2.4rem;
       font-weight: 700;
       text-align: left;
-      margin-bottom: 40px;
+      margin-bottom: 10px;
       color: #fff;
     }
 	.cuup-box {
@@ -2114,7 +2114,7 @@ h3 {
 	  /*
       background: rgba(255,255,255,0.03);
 	  */
-      padding: 30px 35px 30px 100px;     /* left padding makes room for big number */
+      padding: 30px 35px 30px 99px;     /* left padding makes room for big number */
       border-radius: 8px;
       transition: transform .35s ease, background-color .35s ease;
       min-height: 150px;
