@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inviting applications for B.Tech — Engineering (Computer / AI / Data / Electronics) | Apply for NIMS 2026
     </title>
-        <link rel="shortcut icon" href="https://static.npfs.co/accounts/643/config/favicon_1710331237.png"
+    <link rel="shortcut icon" href="https://static.npfs.co/accounts/643/config/favicon_1710331237.png"
         type="image/x-icon">
     <!-- Bootstrap Css -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -29,7 +29,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="header-nav d-flex justify-content-between align-items-center">
-                        <div class="header-logo header-btn d-md-block d-block"><img src="images/nims-logo.webp" alt="header logo"></div>
+                        <div class="header-logo header-btn d-md-block d-block"><img src="images/nims-logo.webp"
+                                alt="header logo"></div>
                         <div class="header-btn d-md-block d-none"><a class="btn-red" href="#Apply">APPLY NOW</a></div>
                     </div>
                 </div>
@@ -85,52 +86,62 @@
         </div>
         <div class="hero-bg">
             <img src="images/hero-bg.jpg" class="lazyload d-md-block d-none" alt="Hero BG">
-            <img src="images/hero-bg-mob.png" class="lazyload d-md-none d-block " alt="Hero BG">
+            <img src="images/hero-bg-mob.jpg" class="lazyload d-md-none d-block " alt="Hero BG">
         </div>
         <style>
             /* make hero container responsive and ensure image covers area */
-.hero-container {
-  position: relative;
-  /* hero height = full viewport minus header; JS sets --header-height */
-  min-height: calc(100vh - var(--header-height, 64px));
-  display: flex;
-  align-items: center; /* vertically center content if needed */
-  overflow: hidden;
-}
+            .hero-container {
+                position: relative;
+                /* hero height = full viewport minus header; JS sets --header-height */
+                min-height: calc(100vh - var(--header-height, 64px));
+                display: flex;
+                align-items: center;
+                /* vertically center content if needed */
+                overflow: hidden;
+            }
 
-/* wrapper for picture/img */
-.hero-bg {
-  position: absolute;
-  inset: 0; /* top:0;right:0;bottom:0;left:0 */
-  z-index: 0;
-  pointer-events: none;
-}
+            /* wrapper for picture/img */
+            .hero-bg {
+                position: absolute;
+                inset: 0;
+                /* top:0;right:0;bottom:0;left:0 */
+                z-index: 0;
+                pointer-events: none;
+            }
 
-/* the actual image must fill the hero area and crop nicely */
-.hero-bg img.hero-bg-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;       /* important for responsive cropping */
-  object-position: center; /* change e.g. top center if you want top-aligned crop */
-  display: block;
-}
+            /* the actual image must fill the hero area and crop nicely */
+            .hero-bg img.hero-bg-img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                /* important for responsive cropping */
+                object-position: center;
+                /* change e.g. top center if you want top-aligned crop */
+                display: block;
+            }
 
-/* ensure the content overlays sit above the bg */
-.hero-container .container,
-.hero-container .row {
-  position: relative;
-  z-index: 2;
-}
+            /* ensure the content overlays sit above the bg */
+            .hero-container .container,
+            .hero-container .row {
+                position: relative;
+                z-index: 2;
+            }
 
-/* small tweaks for very small devices if needed */
-@media (max-width: 575.98px) {
-  .hero-container { min-height: calc(60vh - var(--header-height, 56px)); }
-  .programForm-sec { padding: 18px; } /* example tweak: reduce form padding */
-}
+            /* small tweaks for very small devices if needed */
+            @media (max-width: 575.98px) {
+                .hero-container {
+                    min-height: calc(60vh - var(--header-height, 56px));
+                }
 
+                .programForm-sec {
+                    padding: 18px;
+                }
+
+                /* example tweak: reduce form padding */
+            }
         </style>
     </div>
-    <div class="content-container milestone-container">
+    <!-- <div class="content-container milestone-container">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-8 col-lg-8 col-xl-8 mx-auto">
@@ -177,7 +188,7 @@
                                 </div>
                             </li>
                         </ul>
-                        <!-- <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-apply1" role="tabpanel"
                                 aria-labelledby="pills-apply1-tab">
                                 <div class="tab-pane-main d-flex">
@@ -208,16 +219,16 @@
                                     </p>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
-                <!-- <div class="col-md-5 col-lg-3 offset-xl-1 mt-md-0 mt-4">
+                <div class="col-md-5 col-lg-3 offset-xl-1 mt-md-0 mt-4">
                     <div class="apply-tab-image position-relative h-100"><img src="images/apply-tab-image.jpg"
                             class="h-100 w-100 object-fit-cover" alt=""></div>
-                </div> -->
+                </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- <div class="content-container milestone-container" id="milestones">
         <div class="container">
             <div class="col-12">
@@ -287,8 +298,15 @@
                             </h3>
                         </div>
                         <div class="fc-text flex-grow-1 d-flex flex-column">
-                            <p class="px-lg-2">Learn with real case studies<br />live projects<br />corporate
-                                simulations<br />mentorship from industry leaders to become job-ready from day one.</p>
+                            <div class="soe-accordionblock">
+                                <ul class="course-list shadow p-4">
+                                    <li>Learn with real case studies</li>
+                                    <li>Live projects</li>
+                                    <li>Corporate simulations</li>
+                                    <li>Mentorship from industry leaders to become job-ready from day one.</li>
+                                </ul>
+                            </div>
+                            <!-- <p class="px-lg-2 shadow p-4"><br /><br /><br /></p> -->
                             <div
                                 class="soe-fc-image position-relative flex-grow-1 rounded-3 overflow-hidden mt-4 mt-md-5">
                                 <img src="images/soe-img.jpg" class=" ls-is-cached lazyloaded" alt="Facilities main">
@@ -305,7 +323,7 @@
                                 <h2 class="accordion-header" id="headingUG">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseUG" aria-expanded="true" aria-controls="collapseUG">
-                                        <h3 class="mb-1"> Undergraduate (UG) <br class="d-sm-block d-md-block d-none">
+                                        <h3 class="mb-1">Our Courses <br class="d-sm-block d-md-block d-none">
                                         </h3>
                                     </button>
                                 </h2>
@@ -321,19 +339,20 @@
                                                     <li>BBA in Finance</li>
                                                     <li>BBA in Human Resource Management</li>
                                                     <li>BBA in Business Analytics</li>
+                                                    <li>BBA in International Business</li>
+                                                    <li>BBA in Hospital &amp; Healthcare Management</li>
+                                                    <li>BBA in Digital Marketing</li>
+                                                    <li>B.Com (Management/Finance specialization) Postgraduate (PG)</li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <ul class="course-list">
                                                     <li>MBA in Operations Management</li>
                                                     <li>MBA in Business Analytics</li>
                                                     <li>MBA in Entrepreneurship &amp; Family Business</li>
                                                     <li>MBA in Retail Management</li>
                                                     <li>MBA in Healthcare &amp; Hospital Management</li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <ul class="course-list">
-                                                    <li>BBA in International Business</li>
-                                                    <li>BBA in Hospital &amp; Healthcare Management</li>
-                                                    <li>BBA in Digital Marketing</li>
-                                                    <li>B.Com (Management/Finance specialization) Postgraduate (PG)</li>
                                                     <li>MBA – Master of Business Administration (General)</li>
                                                     <li>MBA in Marketing</li>
                                                     <li>MBA in Finance</li>
@@ -394,39 +413,42 @@
 
     <section class="cuup-ee-section">
         <div class="container">
-            <h3 class="cuup-ee-title">Nims Global Industry Integrated BBA/MBA Program in Knowledge Partnership with--
-                SAP / KPMG / EY/ OM Logistics</h3>
+            <h3 class="cuup-ee-title text-center">Nims Global Industry Integrated BBA/MBA Program in Knowledge Partnership</h3>
 
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6">
                     <div class="cuup-box">
                         <span class="number">01</span>
-                        <h3>SAP</h3>
-                        <p>Specialisation in ERP (B.Tech) / HR, Finance (MBA)</p>
+                        <!-- <h3>SAP</h3> -->
+                        <img src="images/SAP.png" alt="sap logo" />
+                        <p class="mt-2">Specialisation in ERP (B.Tech) / HR, Finance (MBA)</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
                     <div class="cuup-box">
                         <span class="number">02</span>
-                        <h3>KPMG</h3>
-                        <p>Specialisation in Business Analytics (MBA) / Data Science (B.Tech)</p>
+                        <!-- <h3>KPMG</h3> -->
+                         <img src="images/sl-kpmg.png" alt="kpmg logo" />
+                        <p class="mt-2">Specialisation in Business Analytics (MBA) / Data Science (B.Tech)</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
                     <div class="cuup-box">
                         <span class="number">03</span>
-                        <h3>EY India</h3>
-                        <p>Specialisation in MBA in Fintech in knowledge partnership with EY India</p>
+                        <!-- <h3>EY India</h3> -->
+                         <img src="images/EY.png" alt="kpmg logo" />
+                        <p class="mt-2">Specialisation in MBA in Fintech in knowledge partnership with EY India</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
                     <div class="cuup-box">
                         <span class="number">04</span>
-                        <h3>OM Logistics</h3>
-                        <p>Specialisation in Logistics &amp; Supply Chain Management</p>
+                        <!-- <h3>OM Logistics</h3> -->
+                         <img src="images/output.jpg" alt="kpmg logo" />
+                        <p class="mt-2">Specialisation in Logistics &amp; Supply Chain Management</p>
                     </div>
                 </div>
 
@@ -578,26 +600,80 @@
     <div class="collaboration-container content-container extra-padding position-relative bg-grey">
         <div class="container">
             <div class="row">
-                <div class="col-xxl-8 col-md-10 col-12 mx-auto">
+                <div class="col-xxl-12 col-md-12 col-12 mx-auto">
                     <div class="heading text-center">
                         <h2 class="mb-4 mb-xl-5 pb-xxl-4" data-aos="fade-up" data-aos-duration="500">
                             India’s first AI-augmented multidisciplinary university with tie-ups across 20+ Global
                             Giants.
                         </h2>
-                        <p data-aos="fade-up" data-aos-duration="700"><b class="fw-bold">AI-powered learning
-                                ecosystem</b> with smart classrooms, virtual labs, and predictive learning tools.
-                            <br /><b class="fw-bold">20+ global industry collaborations</b> for research, internships,
-                            and future-ready skill development.<br /><b class="fw-bold">Multidisciplinary
-                                flexibility</b> allowing students to mix management, tech, healthcare, and design
-                            subjects.<br /><b class="fw-bold">Cutting-edge Centres of Excellence</b> in AI, Data
-                            Science, Healthcare, Engineering, and Business Analytics.<br /><b
-                                class="fw-bold">Industry-certified programs</b> co-created with global companies to
-                            boost employability and credibility.<br /><b class="fw-bold">Career-focused training
-                                model</b> integrating AI tools, hands-on projects, and real
-                            corporate exposure.
-                        </p>
+                        <div class="row g-4 justify-content-center mt-4">
+                            <div class="col-md-4">
+                                <div class="feature-box" data-aos="fade-up" data-aos-duration="700">
+              <p><b class="fw-bold">AI-powered learning ecosystem</b> with smart classrooms, virtual labs, and predictive tools.</p>
+            </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="feature-box" data-aos="fade-up" data-aos-duration="700">
+                                <p><b class="fw-bold">20+ global industry collaborations</b> for research, internships, and future-ready skill development.
+                                </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="feature-box" data-aos="fade-up" data-aos-duration="700">
+                                <p><b class="fw-bold">Multidisciplinary flexibility</b> allowing students to mix management, tech, healthcare, and design subjects.
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-md-4">
+                                <div class="feature-box" data-aos="fade-up" data-aos-duration="700">
+                                <p><b class="fw-bold">Cutting-edge Centres of
+                                        Excellence</b> in AI, Data Science, Healthcare, Engineering, and Business Analytics.
+                                </p>
+                                </div>
+                            </div>
+                       
+                            <div class="col-md-4">
+                                <div class="feature-box" data-aos="fade-up" data-aos-duration="700">
+                                <p><b class="fw-bold">Industry-certified
+                                        programs</b> co-created with global companies to boost employability and credibility.
+                                </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="feature-box" data-aos="fade-up" data-aos-duration="700">
+                                <p><b class="fw-bold">Career-focused training
+                                        model</b> integrating AI tools, hands-on projects, and real corporate exposure.
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
+                <style>
+                    .highlight-section {
+  background: linear-gradient(135deg, #f7faff 0%, #eef6ff 100%);
+}
+
+.feature-box {
+  background: #ffffff;
+  padding: 18px 22px;
+  border-radius: 12px;
+  min-height: 120px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.06);
+  transition: all 0.3s ease-in-out;
+}
+
+.feature-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.12);
+  background: #d30a11;
+  color: #f7faff;
+}
+
+                </style>
                 <div class="col-12 mt-5" data-aos="fade-up" data-aos-duration="900">
                     <div class="linear-slider swiper">
                         <div class="swiper-wrapper">

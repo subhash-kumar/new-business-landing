@@ -1847,7 +1847,7 @@ h3 {
         min-height: 300px;
         margin-top: 0;
         margin-bottom: 10px;
-		background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.1)), url('../images/carry-forward/carry-forward-bg.jpg'); /* replace with your image path */
+		background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.1)), url('../images/fb-bg-2.jpg'); /* replace with your image path */
 		 background: radial-gradient(circle at center, #001b5e 0%, #00113c 100%);
 		/* */ /* dark left, light right */
 		background-size: cover; /* Make image cover full area */
@@ -2032,7 +2032,7 @@ h3 {
       position: relative;
       padding: 10px 15px 0px 35px;
       margin-bottom: 10px;
-      font-size: 14px;
+      font-size: 16px;
       color: #333;
       border-radius: 8px;
       transition: all 0.3s ease;
@@ -2091,7 +2091,7 @@ h3 {
         /* min-height: 425px; */
         margin-top: 0;
         margin-bottom: 10px;
-		background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.1)), url('../images/carry-forward/carry-forward-bg.jpg'); /* replace with your image path */
+		background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.1)), url('../images/fb-bg-2.jpg') !important; /* replace with your image path */
 		 background: radial-gradient(circle at center, #cb212d 0%, #c8232b 100%);
 		/* */ /* dark left, light right */
 		background-size: cover; /* Make image cover full area */
@@ -2149,7 +2149,7 @@ h3 {
 
     .cuup-box p {
       margin: 0;
-	  font-size:14px;
+	  font-size:16px;
 	  font-weight: 400;
       color: rgba(255,255,255,0.85);
       line-height: 22px;
@@ -2329,7 +2329,7 @@ h3 {
         min-height: 425px;
         margin-top: 0;
         margin-bottom: 10px;
-		background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.1)), url('../images/carry-forward/carry-forward-bg.jpg'); /* replace with your image path */
+		background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.1)), url('../images/fb-bg-2.jpg') !important; /* replace with your image path */
 		 background: radial-gradient(circle at center, #001b5e 0%, #00113c 100%);
 		/* */ /* dark left, light right */
 		background-size: cover; /* Make image cover full area */
