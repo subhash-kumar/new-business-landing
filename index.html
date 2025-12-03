@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="header-nav d-flex justify-content-between align-items-center">
-                        <div class="header-logo"><img src="images/nims-logo.webp" alt="header logo"></div>
+                        <div class="header-logo header-btn d-md-block d-block"><img src="images/nims-logo.webp" alt="header logo"></div>
                         <div class="header-btn d-md-block d-none"><a class="btn-red" href="#Apply">APPLY NOW</a></div>
                     </div>
                 </div>
@@ -42,8 +42,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mx-lg-0 mx-auto align-self-center" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="hero-text position-relative">
-                        <!-- <p class="mb-2">Build a Future-Ready<br class="d-xxl-block d-none"> Engineering Career with</p> -->
+                    <!-- <div class="hero-text position-relative">
+                        <p class="mb-2">Build a Future-Ready<br class="d-xxl-block d-none"> Engineering Career with</p>
                         <h1 class="mb-2"><small>India’s Top Ranked University Inviting </small> Applications for 2026
                         </h1>
                         <ul class="tick-list">
@@ -52,7 +52,7 @@
                             <li>Scholarship Upto 100%</li>
                         </ul>
                         <div class="hero-student d-md-none"><img src="images/hero-student.png" alt=""></div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-md-6 mx-md-0 mx-auto" data-aos="fade-up" data-aos-duration="1000">
                     <div class="programForm-sec ms-md-auto mt-md-0 mt-5">
@@ -87,6 +87,48 @@
             <img src="images/hero-bg.jpg" class="lazyload d-md-block d-none" alt="Hero BG">
             <img src="images/hero-bg-mob.png" class="lazyload d-md-none d-block " alt="Hero BG">
         </div>
+        <style>
+            /* make hero container responsive and ensure image covers area */
+.hero-container {
+  position: relative;
+  /* hero height = full viewport minus header; JS sets --header-height */
+  min-height: calc(100vh - var(--header-height, 64px));
+  display: flex;
+  align-items: center; /* vertically center content if needed */
+  overflow: hidden;
+}
+
+/* wrapper for picture/img */
+.hero-bg {
+  position: absolute;
+  inset: 0; /* top:0;right:0;bottom:0;left:0 */
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* the actual image must fill the hero area and crop nicely */
+.hero-bg img.hero-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;       /* important for responsive cropping */
+  object-position: center; /* change e.g. top center if you want top-aligned crop */
+  display: block;
+}
+
+/* ensure the content overlays sit above the bg */
+.hero-container .container,
+.hero-container .row {
+  position: relative;
+  z-index: 2;
+}
+
+/* small tweaks for very small devices if needed */
+@media (max-width: 575.98px) {
+  .hero-container { min-height: calc(60vh - var(--header-height, 56px)); }
+  .programForm-sec { padding: 18px; } /* example tweak: reduce form padding */
+}
+
+        </style>
     </div>
     <div class="content-container milestone-container">
         <div class="container">
@@ -1061,7 +1103,7 @@
                                 <div class="ranking-slider-item swiper-slide">
                                     <div class="ranking-slider-card">
                                         <h6>RANKED AMONGST TOP</h6>
-                                        <h3>2%</h3>
+                                        <h3>1%</h3>
                                         <p>universities worldwide out of 28,500 universities.</p>
                                         <div class="rsc-logo"><img src="images/qs-world.png"
                                                 alt="Ranked amongst top 2% worldwide out of 28,500 universities."></div>
