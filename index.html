@@ -796,7 +796,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="row" data-aos="fade-up" data-aos-duration="700">
+            <!-- <div class="row" data-aos="fade-up" data-aos-duration="700">
                 <div class="col-12 mt-5">
                     <div class="swiper gallerySwiper mt-lg-5">
                         <div class="gallery-list swiper-wrapper">
@@ -833,7 +833,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -1272,12 +1272,12 @@
                             <div class="testimonial-item swiper-slide">
                                 <div class="testimonial-card">
                                     <div class="tc-head">
-                                        <div class="tc-head-img">
+                                        <!-- <div class="tc-head-img">
                                             <img src="images/student-testimonial/shorya-jain.jpg" class="lazyload"
                                                 alt="Shorya Jain">
-                                        </div>
+                                        </div> -->
                                         <div class="tc-head-text">
-                                            <p>Shorya Jain</p>
+                                            <p>Harsh Dubey</p>
                                             <!-- <div>
                                                 <span>Placed at</span><img
                                                     src="images/student-testimonial/amazon-logo-1.png" alt="amazon">
@@ -1297,12 +1297,12 @@
                             <div class="testimonial-item swiper-slide">
                                 <div class="testimonial-card">
                                     <div class="tc-head">
-                                        <div class="tc-head-img">
+                                        <!-- <div class="tc-head-img">
                                             <img src="images/student-testimonial/vandana-chauhan.png" class="lazyload"
                                                 alt="Vandana Chauhan">
-                                        </div>
+                                        </div> -->
                                         <div class="tc-head-text">
-                                            <p>Vandana Chauhan</p>
+                                            <p>Keerti Shukla</p>
                                             <!-- <div>
                                                 <span>Placed at</span><img
                                                     src="images/student-testimonial/volvo-logo.png" alt="volvo">
@@ -1317,12 +1317,12 @@
                             <div class="testimonial-item swiper-slide">
                                 <div class="testimonial-card">
                                     <div class="tc-head">
-                                        <div class="tc-head-img">
+                                        <!-- <div class="tc-head-img">
                                             <img src="images/student-testimonial/keshav-mathur.jpg" class="lazyload"
                                                 alt="Keshav Mathur">
-                                        </div>
+                                        </div> -->
                                         <div class="tc-head-text">
-                                            <p>Keshav Mathur</p>
+                                            <p>Manya Shetty</p>
                                             <!-- <div>
                                                 <span>Placed at</span><img
                                                     src="images/student-testimonial/microsoft-logo.png" alt="microsoft">
@@ -1340,12 +1340,12 @@
                             <div class="testimonial-item swiper-slide">
                                 <div class="testimonial-card">
                                     <div class="tc-head">
-                                        <div class="tc-head-img">
+                                        <!-- <div class="tc-head-img">
                                             <img src="images/student-testimonial/manish-kumar.jpg" class="lazyload"
                                                 alt="Manish Kumar">
-                                        </div>
+                                        </div> -->
                                         <div class="tc-head-text">
-                                            <p>Manish Kumar</p>
+                                            <p>Sagar Shivhare</p>
                                             <!-- <div>
                                                 <span>Placed at</span><img
                                                     src="images/student-testimonial/palo-alto-logo.png" alt="Palo alto">
@@ -1546,6 +1546,205 @@
             </div>
         </div>
     </section>
+   <section class="next-banner container-fluid px-0">
+  <div class="row g-0 align-items-stretch">
+
+    <!-- LEFT -->
+    <div class="col-lg-6 d-flex next-left">
+      <div class="content-box">
+
+        <div class="logo-box">
+          <img src="images/next-logo.png" alt="">
+          <!-- <div class="text">
+           
+            Nims Entrance excellence Test
+          </div> -->
+        </div>
+
+        <h2 class="main-heading">Scholarship Program</h2>
+
+        <p class="small-title">Why wait?</p>
+        <p class="desc"><strong>Register for the NIMS Scholarship Exam today.</strong></p>
+        <p class="desc">Grab your chance to cut fees and boost your future</p>
+
+        <p class="highlight">Get up to 100% Scholarship</p>
+        <p class="caption">Empowering Every Student to Achieve Their Dreams.</p>
+
+        <button class="apply-btn">Apply today</button>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="col-lg-6 next-right d-flex">
+      <div class="overlay-text">Create Your Tomorrow</div>
+    </div>
+
+  </div>
+</section>
+
+
+  <style>
+/* SECTION BACKGROUND (image + overlay) */
+.next-banner {
+  position: relative;
+  background: url('images/scollership.png') no-repeat;
+  background-size: cover;
+  /* image ko thoda right shift, laptop blue strip se start hogi */
+  background-position: 74% 0%;
+  overflow: hidden;
+}
+
+/* blue overlay only left side (lg pe 5/12 width) */
+.next-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 0 0;   /* top,right,bottom,left */
+  background: #143358E0;
+  z-index: 0;
+  opacity: 0.7;
+}
+
+/* lg se upar overlay sirf left 5 columns tak */
+@media (min-width: 992px) {
+  .next-banner::before {
+    width: 41.6667%;     /* 5/12 = col-lg-5 */
+    right: auto;
+  }
+}
+
+/* content ko overlay ke upar lane ke liye */
+.next-banner .row {
+  position: relative;
+  z-index: 1;
+}
+
+/* LEFT PANEL */
+.next-left {
+  padding: 50px 55px;
+  display: flex;
+  align-items: center;
+  min-height: 320px;
+  color: #fff;
+}
+
+.content-box {
+  max-width: 360px;
+}
+
+/* LOGO BOX */
+.logo-box {
+  display: inline-flex;
+  align-items: center;
+  /* background: #ffffff;
+  padding: 10px 22px;
+  border-radius: 18px;
+  margin-bottom: 25px; */
+}
+
+.logo-box img {
+  height: 80px;
+  margin-right: 10px;
+}
+
+.logo-box .text {
+  font-size: 12px;
+  color: #555;
+  line-height: 1.2;
+}
+
+.logo-box .text span {
+  font-weight: 700;
+  font-size: 26px;
+  color: #E73A3C;
+  display: block;
+  margin-bottom: 2px;
+}
+
+/* HEADINGS & TEXT */
+.main-heading {
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 12px;
+  /* font-family: 'Mulish sans'; */
+}
+
+.small-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.desc {
+  font-size: 16px;
+  line-height: 136%;
+  margin-bottom: 4px;
+}
+
+.highlight {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 14px;
+}
+
+.caption {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+/* BUTTON */
+.apply-btn {
+  background: #E73A3C;
+  border: none;
+  padding: 10px 28px;
+  color: #fff;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* RIGHT PANEL (sirf bottom text ke liye) */
+.next-right {
+  position: relative;
+  min-height: 270px;
+}
+
+/* bottom faded text */
+.overlay-text {
+position: absolute;
+    bottom: 10px;
+    left: 0%;
+    transform: translateX(-50%);
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.35);
+    pointer-events: none;
+}
+
+/* Responsive */
+@media (max-width: 991.98px) {
+  .next-left {
+    padding: 30px;
+  }
+  .main-heading {
+    font-size: 26px;
+  }
+  .overlay-text {
+    font-size: 22px;
+  }
+ 
+}
+ @media (max-width:600px){
+    .next-right {
+    position: relative;
+    min-height: 40px;
+}
+.overlay-text {
+    position: absolute;
+    left: 30%;}
+  }
+
+  </style>
     <!-- ========================== first AI end =========================== -->
 
     <!-- ============================ Footer Start ============================ -->

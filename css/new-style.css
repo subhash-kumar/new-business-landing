@@ -790,7 +790,7 @@ h3 {
     }
     .first-ai-maininner {
         width: 100%;
-        min-height: 400px;
+        /* min-height: 400px; */
         margin: 50px 0;
         float: left;
     }
